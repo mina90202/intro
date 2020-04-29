@@ -1,0 +1,72 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+@media screen and (max-width: 1820px) {
+.careate .carea .cust{
+		padding: 100px 50px;
+	}
+}
+@media screen and (max-width: 1680px) {
+	.testimonials-img img{width: 120%;}
+
+}
+@media screen and (max-width: 1360px) {
+	.contacts .contact p{font-size: 24px;}
+		.testimonials-img img{width: 110%;}
+
+}
+@media screen and (max-width: 1170px) {
+	.testimonials .col-md-pull-6{padding-top: 0;}
+	.our-cases .col-md-4{padding: 50px 30px;}
+	.testimonials .col-md-pull-6 h2{padding-bottom: 30px;}
+	.testimonials .col-md-pull-6 p{padding-bottom: 20px;}
+}
+@media screen and (max-width: 1024px) {
+	.testimonials-img img{width: 100%;}
+	.testimonials .col-md-pull-6 h2{margin-top: 0;}
+	.cooperate{padding-top: 50px;}
+	.gallery{padding-top: 50px;}
+
+}
+@media screen and (max-width: 991px) {
+	.contacts .contact{text-align: center;}
+	.testimonials .col-md-pull-6{padding: 30px 15px;}
+	.testimonials{padding-bottom: 50px;}
+	.cooperate .logo-brand .col-md-4 img{width: 100%;}
+
+
+}
+
+@media screen and (max-width: 767px) {
+	.contacts .contact p .circle img{width: 8%;}
+	.contacts .contact p{font-size: 20px;}
+	.cooperate .logo-brand .col-md-4 img{width: initial;}
+	.our-cases .col-md-4{border-bottom: 1px solid #484848;padding: 50px 80px;}
+	
+}
+@media screen and (max-width: 680px) {
+	
+}
+@media screen and (max-width: 568px) {
+	.cooperate .logo-brand .col-md-4 img{width: 100%;}
+	.gallery p{font-size: 14px;line-height: 150%;}
+	.cooperate .brand p{line-height: 150%;font-size: 14px;}
+	.our-cases .col-md-4 p{line-height: 150%;font-size: 14px;}
+	.testimonials .col-md-pull-6 p{font-size: 14px;line-height: 150%;}
+	.testimonials .col-md-pull-6 h2{font-size: 20px;}
+}
+@media screen and (max-width: 480px) {
+	.gallery .col-md-4{width: 100%;}
+	.cooperate .logo-brand .col-md-4 {width: 50%;text-align: center; img {width: initial;}}
+	.cooperate .logo-brand img{padding-bottom: 50px;}
+	.our-cases .col-md-4{padding:50px 20px;}
+}
+@media screen and (max-width: 360px) {.cooperate .logo-brand .col-md-4 {width: 100%;}}

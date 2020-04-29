@@ -1,0 +1,122 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+@media screen and (max-width: 1680px) {
+	.slick-list.draggable .slick-track .slick-slide{  width: 2% !important;}
+	.cases .read-mode .read-mode-produc{padding-left: 15px;top:170px;}
+	.video-skills .skills{padding: 30px 50px 0 50px;}
+	.who_we_are .weare{padding-left: 50px;}
+	.case-center .case-studies p{padding-left: 20%;padding-right: 20%;}
+	.video-skills .skills p{padding-bottom: 30px;}
+
+}
+@media screen and (max-width: 1360px) {
+	.who_we_are .col-md-6 .detop img{width: 100%;}
+		.slick-list.draggable .slick-track .slick-slide{  width: 1.6% !important;}
+		.cases .read-mode .read-mode-produc p{font-size: 24px;}
+		.cases .read-mode .read-mode-produc{top:100px;}
+		.video-skills .skills p{line-height: 150%;padding-bottom: 0;}
+		.video-skills .skills{padding: 0 15px;}
+		.contacts .contact p{font-size: 24px;}
+		.talk-to .row{padding: 150px 0;}
+
+}
+@media screen and (max-width: 1170px) {
+.about .about-we h1{font-size: 40px;}
+.slick-list.draggable .slick-track .slick-slide{width: 1.4% !important;}
+.cases .read-mode .read-mode-produc p{font-size: 22px;}
+.video-skills .skills h1{font-size: 36px;}
+
+}
+@media screen and (max-width: 1024px) {
+	.video-skills .skills .snippets .skill{padding-bottom: 30px;}
+	.cooperate .logo-brand  img{width: 100%;}
+	.case-center{padding-top: 50px;padding-bottom: 50px;}
+	.cooperate{padding-top: 50px;}
+		.talk-to .row{padding: 50px 0;}
+	.affixx {
+	padding-top: 20px!important;
+}
+}
+@media screen and (max-width: 991px) {
+	.sile1 .we_are{padding-right: 0;}
+	.about{top:0;padding: 30px 0;}
+	.about1{padding-top: 50px;padding-bottom:50px;}
+	.about .about-we {    padding-left: 30px;}
+	.about .corem-ipsum{padding-right: 30px;p{line-height: 150%;}}
+	.contacts .contact{text-align: center;}
+	.servic .marketing{border-right: 1px solid #ebebeb;border-top: 1px solid #ebebeb;}
+	.servic .development{border-bottom: 1px solid #ebebeb;}
+	.video-skills .video{padding-left: 15px;}
+	.video-skills{padding-bottom: 50px;}
+	.who_we_are .weare{padding-left: 15px;padding-bottom: 50px;}
+}
+@media screen and (max-width: 767px) {
+	.contacts .contact p .circle img{width: 8%;}
+	.contacts .contact p{font-size: 20px;}
+	.blog .col-md-4{width: 100%;text-align: center;padding-bottom: 50px;}
+	.cooperate{padding-bottom: 0;padding-top: 100px;}
+	.about .corem-ipsum{padding-left: 30px;}
+	.cooperate .brand {text-align: center;padding-bottom: 50px;}
+	.cooperate .logo-brand {text-align: center;}
+	.cooperate .logo-brand img{width: initial;}
+		.case-center .case-studies p{padding-left: 10%;padding-right: 10%;}
+
+}
+@media screen and (max-width: 680px) {
+	.sile1{left: 10%;padding-right: 0;padding-left: 0;}
+	.button-contact button{font-size: 13px; width: 230px;}
+	.footer .full-container .footer1 .links{padding-right: 10px;}
+}
+@media screen and (max-width: 568px) {
+
+	.affix-top .affixx .logo span {
+    background-image: url(../img/logo-mobi.png) !important;}
+		.button1 .vuong{background: transparent!important;}
+	.button1 span{background: #fff!important; }
+	.phone_top .pull-right i{color: #fff!important;}
+	.sile1{width: 65%;}
+	.about .corem-ipsum p{font-size: 14px;}
+	
+	.case-center .case-studies p{font-size: 14px;}
+	.cooperate .brand p{font-size: 14px;line-height: 150%;}
+	.slick-dots{bottom: -50px !important;}
+	.cooperate{padding-top: 50px;}
+	.who_we_are .weare{padding-bottom: 0;}
+.affixx .logo span{background-image: url(../img/logo-mobi.png)!important;}
+	.button-contact button{height: 40px;}
+	.footer .full-container .footer1 .links{padding-right: 20%;}
+	.cooperate .logo-brand img{width: 100%;}
+	.cases .read-mode .read-mode-produc p{font-size: 20px;}
+	.blog .blog1 p{font-size: 14px;line-height: 150%;}
+	.blog .blog2 .blog_name a{font-size: 18px;}
+	.blog .blog2 .blog_name p{font-size: 14px;line-height: 150%;}
+	.talk-to .our-core p{font-size: 14px;line-height: 150%;}
+	.talk-to .input-contact input{font-size: 14px;}
+	.video-skills .skills p{font-size: 14px;}
+}
+@media screen and (max-width: 480px) {
+	.servic .col-md-4{padding-left: 30px;}
+	.button1 .vuong{background: transparent!important;}
+	.button1 span{background: #fff!important; }
+	.phone_top .pull-right i{color: #fff!important;}
+	.sile1 .row_top .we_are h1{margin-top: 5px;}
+	.sile1{width: 95%;left: 5%;}
+	.slick-list.draggable .slick-track .slick-slide{width: 1% !important;}
+	.cooperate .logo-brand  img{width: initial;}
+	.cooperate .logo-brand img{padding-bottom: 40px;}
+	.cooperate .logo-brand .col-xs-4 {width: 100%;}
+	.cases .read-mode{width: 100%;}
+	.row_top{width: 100%;}
+	.sile1 .row_top .we_are{padding: 0 5px;}
+	.snippets{width: 100%;padding-bottom: 10px;}
+	.talk-to .our-core p{padding-left: 0;padding-right: 0;padding-bottom: 10px;}
+}

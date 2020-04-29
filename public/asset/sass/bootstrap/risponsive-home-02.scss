@@ -1,0 +1,303 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+.modal-open{
+	overflow: visible !important;
+	padding: 0!important;
+}
+.pull-right{
+	cursor: pointer;
+}
+*{
+	outline: none !important;
+}
+
+.base{  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 400;
+    background-color: #fff;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;}
+    .baseright{  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 400;
+    background-color: #fff;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;}
+@media screen and (max-width: 1680px) {
+
+	.create{padding: 117px 30px;}
+	.careate .carea .cust{padding: 15px 10px;}
+	.carea{padding: 40px 80px;}
+	.feedback .feeb{ letter-spacing: 0; font-size: 300px;}
+	.porfolio .col-md-pull-8{padding: 0 40px; padding-top: 108px;padding-bottom: 120px;}
+	.footer .full-container .footer1 > .links{ padding-right: 15px;}
+	.footer .full-container .footer1 > .logo_footer{ padding-right: 15px;}
+	.footer .full-container .footer1 > .recent_post{ padding-right: 15px;}
+    .footer .full-container .footer1 > .newsletter{padding-left: 15px;}
+    .affixx .navba{padding-left: 5px;}
+    .phone_top{padding-right: 5px;}
+    .careate .carea{padding: 60px;}
+   
+}
+@media screen and (max-width: 1360px){
+.counter1 .col-md-3 {    padding-left: 8%;}
+	.careate .carea{padding: 15px;}
+}
+
+@media  screen and (max-width: 1170px) {
+	.feedback .feeb{font-size: 200px;}
+	.affixx .navba{padding-left: 15px;}
+	.phone_top{padding-right: 15px;}
+	.navbar-inverse .navbar-nav>li>a{padding-left: 11px;padding-right: 11px;}
+	.sile1 .row_top .we_are h1{padding: 0}
+	.we_are{padding: 0 50px;}
+
+
+	.careate .carea .cust{    padding: 10px 10px;}
+	.careate .carea .cust h1{font-size: 36px;padding-top: 0;padding-bottom: 0;}
+	.careate .carea .cust p{line-height: 150%;margin-bottom: 0;}
+	.cust h1{padding-bottom: 0}
+	.cust p{line-height: 150%}
+	.button_see{margin-top: 27px;}
+	.feedback .slide_main .test p{padding-bottom: 30px;}
+	.porfolio .col-md-pull-8{padding: 54px 15px;}
+	
+	.footer .full-container .footer1 .logo_footer{ padding-right: 15px;}
+    .footer .full-container .footer1 .newsletter{padding-left: 15px;}
+    .footer .full-container{padding: 0 15px}
+    .affixx {top:0px !important;padding-top: 20px;}
+    .porfolio{padding: 80px 15px;}
+	
+}
+@media  screen and (max-width: 1170px) {
+	 .affixx .navba .navbar-inverse .navbar-nav li{
+    	    margin-left: 7px;
+    margin-right: 7px;
+    }
+}
+@media  screen and (max-width: 1024px) {
+	.footer .full-container .footer1 .newsletter .your .button_search{z-index: 0;}
+	.footer .full-container .footer1{padding-bottom: 50px;padding-top: 50px;}
+	.contacts .contact{padding: 20px 0;}
+	.affixx .logo span {
+    background-image: url(../img/logo-mobi.png);
+    height: 32px;
+    width: 104px;
+    display: inline-block;
+}
+.feedback .slide_main .test{padding-top: 50px;}
+.phone_top{padding-top: 0;}
+.phone_top .pull-right{padding: 5px;}
+.button1{padding-top: 5px;padding-left: 5px;}
+	.affixx .sidenav .navbar .nav li{border: none!important;}
+	.affixx .sidenav .navbar .nav{float: none;}
+	.affixx .navba .navbar-inverse{padding-right: 30px;padding-top: 20px;}
+	.affixx{padding-bottom: 10px!important;}
+	.counter1 .col-md-3 {    padding-left: 6%;}
+	.porfolio .col-md-pull-8{padding:5.3% 30px;}
+	.header-lap{display: none;}
+	.header-mobi{display: block;}
+	.feedback{padding-bottom: 50px;}
+	.cust h1{font-size: 30px}
+	.all-pro{width: 177px; padding-left: 15px}
+	.all-pro span{margin-right: 5px;}
+	.phone_top span{display: none;}
+	.phone_top .phonee{display: none;}
+	.who_we_are{padding: 50px 0;}
+	.blog{padding: 50px 0;}
+		.servic{padding: 50px 0;}
+
+}
+@media  screen and (max-width: 992px) {
+	.porfolio .col-md-pull-8{padding: 19px 30px;}
+}
+@media  screen and (max-width: 991px) {
+
+	.footer .full-container .footer1 .newsletter .subs{padding-top: 10px;}
+	.who_we_are .we_01{padding: 0 15px;}
+	.careate .carea{width: 100%;padding: 0;position:relative;}
+	.porfolio .col-md-8{padding-left: 0}
+	.feedback .feeb{font-size: 130px;}
+	.servic .identity{border-right: none;border-left: none;padding: 32px 15px 30px 15px;}
+	.servic .design{padding: 30px 14px 32px 15px;    border-right: 1px solid #ebebeb;}
+	.servic .appdevelopment{padding: 32px 15px 30px 15px;border-bottom:1px solid #ebebeb; }
+	.servic .marketing{border-left: none;padding: 32px 15px 30px 15px}
+	.servic .development{border-right:1px solid #ebebeb; padding: 30px 15px 30px 15px;}
+	.servic .creation{padding: 30px 15px 30px 15px;}
+	.video .row_video .video1 > p{font-size: 36px; padding-bottom: 0;padding-top: 10px;}
+	.links ul{    -webkit-padding-start: 0px;}
+	.footer .full-container .footer1 .links p{padding-left: 0px;padding-bottom: 20px;}
+	.footer .full-container .footer1 .recent_post p{padding-left: 0;padding-bottom: 20px;}
+	.footer .full-container .footer1 .newsletter p{padding-bottom: 20px;}
+	.footer .full-container .footer1 span{margin-bottom: 20px;}
+	.recent_post ul{    -webkit-padding-start: 0px;}
+	.footer .full-container .footer1 .links{padding-bottom: 150px; }
+	.sile1 .row_top .we_are h1{font-size: 50px;}
+
+	.servic{padding-top: 50px;}
+	.counter1 .col-md-3{padding-left: 5%;}
+	}
+	@media  screen and (max-width: 768px) {
+		.modal .modal-dialog .modal-content .modal-header .modal-title{font-size: 36px;}
+		.modal .modal-dialog .modal-content .modal-body{width: 60%;}
+		.sile1 .row_top .we_are h1{font-size: 41px}  
+		.footer .full-container .footer2 .copy{padding-bottom: 20px;}
+		.row_top div p{line-height: 170%}
+	.who_we_are .we_01{padding-bottom: 50px;}
+	.who_we_are .we_01 h4{padding-bottom: 10px}
+	.slide_main .test{padding-top: 100px}
+	.img_porfolio .col-md-4{width: 50%}
+	.servic .col-md-4{width: 50%;} 
+	.counter .col-md-3{width: 50%; padding-left: 15%;padding-bottom: 50px;}
+	.blog .col-md-4{width: 33.33333%;}
+	.button_see{margin-top: 10px;}
+	.footer .full-container .footer1 .links{padding-right: 50px;}
+	.video .row_video .video1 .button_play {width: 60px;height: 60px;}
+	.button_rea{height: 38px;margin-top: 0;}
+		.footer .full-container .footer2 .copy{text-align: center;}
+	.footer .full-container .footer2 .goto{text-align: center;}
+	.servic .col-md-12 p{font-size: 36px;padding-top: 10px;padding-bottom: 30px;}
+	.who_we_are .who_are h1{padding-bottom: 30px;padding-top: 10px;font-size: 36px;}
+	.feedback .slide_main .test p{font-size: 36px;}
+	.feedback .information .lazy h3{font-size: 20px;}
+	* h1{font-size: 36px !important;}
+	.video .row_video .video1 .button_play i{padding: 32%;}
+	
+}
+	@media  screen and (max-width: 680px) {
+		.modal .modal-dialog .modal-content .modal-body{width: 70%;}
+	.cuter .counter .counter1 .col-md-3 .counte{font-size: 30px;}
+.feedback .feeb{font-size: 100px;}
+	.sile1 .row_top .we_are h1{font-size: 36px;}
+	.sile1 .row_top .we_are p{font-size: 14px; line-height: 150%;}
+
+	
+	.who_we_are .who_are h1{font-size: 36px;padding-bottom: 10px;}
+	.who_we_are .who_are p{font-size: 14px;}
+	.careate .carea .cust h1{font-size: 36px;}
+	.careate .carea .cust p{font-size: 14px; line-height: 150%;    margin-bottom: 10px;}
+	.button_see {   margin-top: 10px;    width: 180px;   height: 45px;}
+	.feedback .slide_main .test p{font-size: 36px;}
+
+	.feedback .information .lazy h3{font-size: 16px;}
+	
+	.cuter .counter{padding: 50px 0 0 0}
+	.porfolio .nav_main .nav-tabs li{padding-right: 15px;padding-left: 3px;}
+	.porfolio .col-md-pull-8 h1{font-size: 36px;}
+	.porfolio .col-md-pull-8 p{font-size: 16px; line-height: 150%;}
+	.porfolio{padding: 50px 0px;}
+
+	.button-proje {   width: 210px;}
+	.video .row_video .video1 > p{font-size: 24px;}
+	
+	.blog .col-md-12 h1{font-size: 36px;}
+	.blog .col-md-4 .blog_name a{font-size: 18px;}
+	.blog .col-md-4 .blog_name p{font-size: 14px;line-height: 150%;}
+	.footer #googlemap1{height: 400px;}
+	.footer1{padding-top: 50px;padding-bottom: 50px;}
+	.servic .col-md-12 p{font-size: 36px;}
+	}
+
+	@media  screen and (max-width: 568px) {
+		.modal .modal-dialog .modal-content .modal-body{width: 85%;}
+		.side{width: 100%;box-shadow: none; padding-top: 0px;padding-left: 0px; top:63px;padding-right: 0px;padding-bottom: 63px;
+			background: transparent;}
+		.side .navbar .list-group-item{width: 100%;padding: 15px;}
+		.side .navbar .list-group-item{border-bottom: 1px solid #ebebeb;font-weight: 400;font-size: 16px;}
+		.side .navbar .list-group-item button{top: 0;}
+		.navbar-nav{margin: 0 -15px;background: #fff;padding-left: 15px;box-shadow: rgba(0, 0, 0, 0.05) -8px 5px 10px;}
+		.side .navbar .navbar-nav li a{font-weight: 400;font-size: 14px;}
+		.base{margin-left: 0!important;}
+		.baseright{margin-left: 0!important;}
+		.sile1{top: 60%;}
+		.affixx{background: #333!important;}
+		.affixx{padding-top: 20px!important;}
+		.feedback .feeb{font-size: 70px;}
+		.sile1 .row_top .we_are h1{font-size: 24px;}
+		.sile1 .row_top .we_are{padding: 0 30px;}
+		.who_we_are .who_are h1{font-size: 24px;}
+		.who_we_are .we_01 h4{font-size: 18px;}
+		.who_we_are .we_01 p{font-size: 14px; line-height: 150%;}
+		.porfolio .nav_main .nav-tabs li{padding-right: 0;padding-left: 4px;}
+		.porfolio .col-md-pull-8 h1{font-size: 24px;}
+		.porfolio .col-md-pull-8 p{font-size: 14px;}
+		.servic .col-md-12 p{font-size: 24px;}
+		.servic .col-md-4 p{font-size: 14px;line-height: 150%;}
+		.servic .development{padding: 0 14px;padding-bottom: 20px;}
+		.servic .identity{padding: 0 15px;padding-bottom: 22px;}
+		.servic .marketing{padding: 0 14px;padding-top: 20px;}
+		.servic .creation{padding: 0 15px;padding-top: 27px;}
+		.button_see{margin-top: 0;}
+		.blog .col-md-12 h1{font-size: 24px;padding-bottom: 20px;}
+		.blog .col-md-4{width: 100%;padding-bottom: 50px;}
+		.blog .col-md-4 .blog_name p{padding-top: 10px;}
+		.footer .full-container .footer1 .logo_footer{width: 100%;padding: 0 20% 60px 20%;}
+		.footer .full-container .footer1 .links{width: 100%;padding: 0 20% 60px 20%;}
+		.footer .full-container .footer1 > .recent_post{width: 100%;padding: 0 20% 60px 20%;}
+		.footer .full-container .footer1 .newsletter{width: 100%;padding: 0 20% 60px 20%;}
+		.feedback .slide_main .test p{font-size: 24px;}
+		.feedback .information .lazy h3{font-size: 14px;}
+		* h1{font-size: 24px !important;}
+		.affixx{position: inherit !important;}
+		.layer{padding-top: 62px;}
+
+
+	}
+	@media  screen and (max-width: 480px) {
+		.porfolio .nav_main .nav-tabs li a{ letter-spacing: 0; }
+		.modal .modal-dialog .modal-content .modal-header .modal-title{font-size: 24px;}
+		.modal .modal-dialog .modal-content .input-group .form-control{font-size: 20px;}
+		.modal .modal-dialog .modal-content .modal-body{width: 100%;}
+		 .modal .modal-dialog .modal-content{padding: 0;}
+		.img_porfolio .col-md-4{width: 100%;}
+		.feedback .feeb{letter-spacing: 6px;}
+		.feedback .information .lazy {    padding: 0 10px;   margin: 0 20px !important;}
+		.affixx{position: inherit !important;padding-top: 15px!important;}		
+		.button_see {    height: 30px;    font-size: 12px;   width: 125px;   padding-left: 10px;}
+		.button_see span {    margin-top: 7px;    width: 15px;margin-right: 9px;}
+		.sile1 .row_top .we_are{padding: 0 15px;}
+		.sile1 .row_top .we_are p{line-height: 130%;}
+		.sile1 .row_top .we_are h1{margin-bottom: 5px;}
+
+		.servic .col-md-4{width: 100%;padding-left: 30px;}
+		.cuter .counter .counter1 .col-md-3 h1{font-size: 24px;}
+		.counter .col-md-3{padding-left: 7%;padding: 0 15px;padding-bottom: 40px;}
+		.video .row_video .video1 .button_play {   width: 40px;   height: 40px;}
+		.video .row_video .video1 .button_play i{font-size: 15px;}
+		.video .row_video .video1 > p{font-size: 17px;margin-bottom: 0;}
+		.button-proje {    width: 150px;    margin-top: 5px;}
+		.footer .full-container .footer1 .logo_footer{width: 100%;padding: 0 10% 60px 10%;}
+		.footer .full-container .footer1 .links{width: 100%;padding: 0 10% 60px 10%;}
+		.footer .full-container .footer1 > .recent_post{width: 100%;padding: 0 10% 60px 10%;}
+		.footer .full-container .footer1 .newsletter{width: 100%;padding: 0 10% 60px 10%;}
+		.servic .marketing{border-bottom:1px solid #ebebeb;padding-bottom: 20px; }
+		.servic .identity{padding-top: 20px;}
+		.careate .carea .cust h1{font-size: 24px;}
+		
+
+
+	}
+	@media  screen and (max-width: 375px) {
+		.porfolio .nav_main  {float: left;}
+		.clear-375{clear: left;}
+
+	}

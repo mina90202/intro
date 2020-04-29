@@ -1,0 +1,66 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+@media screen and (max-width: 1170px) {
+.unlimited .branding   { padding: 50px 15px 56px 15px;}
+.unlimited .website{padding: 50px 15px 51px 15px;}
+.unlimited .customer{    padding: 50px 15px 53px 15px;}
+.unlimited .development{padding: 50px 15px 53px 15px;}
+.unlimited .branding{padding: 50px 15px 56px 15px;}
+
+.affixx .sidenav .navbar{margin-bottom: 0;}
+
+}
+@media screen and (max-width: 1024px) {
+	.affixx{padding-top: 15px !important;}
+	.pull-right{padding-top: 5px;}
+	.layer {
+     padding-top: 0px; 
+}
+.pull-right {
+    padding: 5px 0;
+}
+
+.page-404{padding-top: 50px 15px;}
+.affixx .sidenav{padding-right: 15px;}
+.affixx .logo{padding-left: 15px;}
+}
+@media screen and (max-width: 991px) {
+	.careate img{width: 100%;}
+	.unlimited .development{clear: left;}
+}
+@media screen and (width: 812px){
+.unlimited .branding {
+    padding: 50px 30px 56px 30px;
+}}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 568px){
+.layer { padding-top: 62px;}
+.affixx{position: fixed !important;padding-bottom: 10px !important;}
+.container_header{top:60%;}
+}
+
+@media screen and (max-width: 480px){
+	.container_header{top:75%;}
+	.blog .pagination li a{
+		    width: 40px;
+    height: 40px;
+    line-height: 40px;
+	}
+	.container_header .breadcrumb .active{width: auto;}
+	.blog .pagination li .prev{
+		width: 80px;
+	}
+
+	.container_header{ h1{padding-bottom: 0;}}
+}

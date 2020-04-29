@@ -1,0 +1,81 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+@media  screen and (max-width: 1200px) {
+	.sidenav-blog .blog .name_img .blog_name{padding-left: 15px;
+		h5{padding-bottom: 0;}
+		p{padding-top: 10px;}
+	}
+	.button_rea{margin-top: 0;}
+	.sidenav-blog .sidenav {
+		 .about h4 span{width: 60%;}
+		 .follow h4 span{width: 60%;}
+		 .categories h4 span{width: 55%;}
+		 .popularp-post h4 span{width: 45%;}
+		 .archive h4 span{width: 65%;}
+		 .tags-cloud { 
+		 	h4 span{width: 50%;}
+		 	.btn1{margin: 5px 0;}}
+		 .newletter h4 span{width: 60%;}}
+
+}
+@media  screen and (max-width: 991px) {
+	.fiter{visibility: visible;}
+	.sidenav-blog .sidenav{
+	  height: 100%;
+	    width: 317px;
+	    position: fixed;
+	    z-index: 10000;
+	    opacity: 0;
+	    top: 0;
+	    left: -317px;
+	    background-color:#fff;
+	    overflow-x: hidden;
+	    transition: 0.5s;
+	    padding-top: 60px;}
+	    .sidenav-blog .sidenav{padding-left: 15px;border-right: 1px solid #f2f2f2;}
+	    .sidenav-blog .sidenav .close .closebtn{visibility: visible;}
+
+}
+@media  screen and (max-width: 568px) {
+.sidenav-blog{padding-top: 0; .blog .name_img{ padding: 30px 0;
+	.blog_img{width: 100%;padding: 0 15px;}
+	.blog_name{width: 100%;padding: 20px 15px;
+		a{font-size: 18px;}
+		p{font-size: 14px;line-height: 150%;}
+	}
+}
+}
+
+.sidenav-blog .blog .pagination li .prev{width: 80px;}
+.sidenav-blog .blog .pagination li a{width: 40px;height: 40px; line-height: 40px;}
+}
+@media  screen and (max-width: 1024px) {
+	.sidenav-blog{padding: 0;}
+}
+@media  screen and (max-width: 568px) {
+
+}
+@media  screen and (max-width: 568px) {
+
+}
+@media  screen and (max-width: 568px) {
+
+}
+@media  screen and (max-width: 568px) {
+
+}
+@media  screen and (max-width: 568px) {
+
+}
+@media  screen and (max-width: 568px) {
+
+}

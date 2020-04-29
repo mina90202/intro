@@ -1,0 +1,55 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+
+@media screen and (max-width: 1680px) {
+	
+}
+@media screen and (max-width: 1440px) {
+	.container-fluid .porodu{padding: 5% 5% 0 5%;}
+}
+@media screen and (max-width: 1360px) {
+	.container-fluid .porodu{    padding: 4% 1% 0 1%;}
+}
+@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1170px) {.container-fluid .porodu{    padding: 2% 1% 0 1%;}}
+@media screen and (max-width: 1024px) {
+	.container-fluid .porodu h4{padding: 5px 0;}
+	.porodu{border-top: 1px solid #bebebe;}
+}
+@media screen and (max-width: 991px) {
+ .container-fluid{	.col-md-1:nth-child(12n+1), .col-md-2:nth-child(6n+1), .col-md-3:nth-child(4n+1), .col-md-4:nth-child(3n+1), .col-md-6:nth-child(2n+1),
+.col-lg-1:nth-child(12n+1), .col-lg-2:nth-child(6n+1), .col-lg-3:nth-child(4n+1), .col-lg-4:nth-child(3n+1), .col-lg-6:nth-child(2n+1),
+.col-xs-1:nth-child(12n+1),.col-xs-2:nth-child(6n+1), .col-xs-3:nth-child(4n+1), .col-xs-4:nth-child(3n+1), .col-xs-6:nth-child(2n+1){
+	clear: none;
+}
+.col-sm-1:nth-child(12n+1),.col-sm-2:nth-child(6n+1), .col-sm-3:nth-child(4n+1), .col-sm-4:nth-child(3n+1), .col-sm-6:nth-child(2n+1){
+	clear: left;
+}
+.porodu{padding: 10% 1% 0 1%;}
+
+}
+}
+@media screen and (max-width: 768px) {
+ .container-fluid{	.porodu{padding: 5% 1% 0 1%;}
+	.poroduc{padding-bottom: 5%;}
+}
+}
+@media screen and (max-width: 680px) {
+	.container-fluid{.col-lg-4 {width: 100%; padding: 10% 2% 10% 2%;}}
+	.porodu{border-top:none;}
+}
+@media screen and (max-width: 568px) {}
+@media screen and (max-width: 480px) {
+	.container-fluid .porodu p{font-size: 14px !important;}
+	.contacts .contact p{font-size: 20px !important;}
+}
+@media screen and (max-width: 360px) {}

@@ -1,0 +1,101 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+@media screen and (max-width: 1360px) {
+.unlimited .website{padding: 100px 50px 101px 50px;}
+.unlimited .customer{    padding: 100px 50px 103px 50px;}
+.unlimited .development{padding: 100px 50px 103px 50px;}
+.unlimited .branding{padding: 100px 50px 106px 50px;}
+.who_we_are .weare{padding-left: 100px;}
+.sile1 .we_are{padding-right: 30px;}
+.sile1 .we_are h1{font-size: 66px;}
+}
+@media screen and (max-width: 1170px) {
+.sile1 .we_are h1{font-size: 50px;}
+.unlimited .website{padding: 50px 15px 51px 15px;}
+.unlimited .customer{    padding: 50px 15px 53px 15px;}
+.unlimited .development{padding: 50px 15px 53px 15px;}
+.unlimited .branding{padding: 50px 15px 56px 15px;}
+.who_we_are .weare{padding-right: 15px;padding-left: 15px;}
+.who_we_are .weare .bar p{padding-top: 10px;padding-bottom: 20px;}
+.servic .row{margin-right: 0;margin-left: 0;}
+}
+@media screen and (max-width: 1024px) {
+	.team{padding: 50px 0;}
+	.unlimited{padding-bottom: 50px;}
+	.what1{padding: 50px 15px;}
+}
+
+@media  screen and (max-width: 991px) {
+	.sile1 .we_are p{font-size: 16px;line-height: 170%;}
+	.sile1 .row_top .we_are h1{font-size: 40px;}
+	.servic .development{border: none;}
+	.servic .appdevelopment{border: none;}
+	.servic .marketing{border: none;}
+	.servic .design{border: none;}
+	.who_we_are .col-md-6 .detop img{padding-bottom: 30px;}
+	.what1 .main-img .slick-slide .rul{padding: 20px 10px;}
+	.pricing-table .center-mode .months{padding: 15px;}
+
+}
+	@media  screen and (max-width: 768px) {
+		.sile1 .we_are{padding-right: 10px;}
+		.porfolio .blanc{padding-right: 0;}
+		.porfolio .mock{padding-left: 0;}
+		.what1 .js-click-product{height: 120px;}
+		.pricing-table .center-mode .months{width: 33.333333%;}
+		.pricing-table .center-mode .months ul li{font-size: 16px;}
+		.pricing-table .center-mode .months p{font-size: 12px;}
+		.pricing-table .center-mode .months h1 span{font-size: 40px;}
+		.servic .col-md-12 p{font-size: 36px;padding-bottom: 30px;padding-top: 10px;}
+		.team .team1 h1{;padding-top: 10px;padding-bottom: 30px;}
+		.what1 .whatw h1{font-size: 36px;padding-bottom: 30px;padding-top: 10px;}
+		.pricing-table .our_pri h1{;padding-bottom: 30px;padding-top: 10px;}
+		.pricing-table{padding-top: 100px;}
+.team .col-md-12 .button_see{margin-top: 50px;}
+.team .col-md-4{width: 33.333%;}
+
+	}
+@media  screen and (max-width: 680px) {
+			.sile1{width: 60%;}
+		}
+@media  screen and (max-width: 568px) {
+				.sile1{width: 100%;}
+				.servic .col-md-4 .backg_home3 p{font-size: 14px;}
+				.servic .creation{padding-top: 19px;}
+				.servic .design{padding: 15px;}
+				.servic .appdevelopment{padding: 15px;}
+				.what1 .main-img .slick-slide .rul{padding: 10px 4px;}
+				.what1 .main-img .slick-slide .rul p{font-size: 12px;}
+				.pricing-table{padding-top:50px;}
+				.footer .full-container .footer1{padding-bottom: 50px;padding-top: 50px;}
+				.servic .col-md-12 p{font-size: 24px;}
+				.who_we_are .weare p{font-size: 14px;line-height: 150%;}
+				.who_we_are .weare .bar p{font-size: 14px;}
+
+					
+			}
+@media  screen and (max-width: 480px) {
+				.what1 .main-img .slick-current.slick-active{display: inline-block;width: 97%!important;}
+				.what1 .main-img .slick-slide{display: none;}
+				.pricing-table .center-mode .months{width: 100%; padding-bottom: 60px;}
+				.porfolio .blanc img{width: 100%;}
+				.sile1{width: 97%;}
+				.servic .col-md-4{padding-left: 15px;}
+				.team .col-md-4{width: 100%; padding-bottom: 30px;}
+				.what1 .main-img .slick-slide{margin: 0 5px;}
+				.slick-slider .slick-track{width: 250px;}
+				.what1 .js-click-product .slick-list{padding: 0 !important;}
+				.what1 .js-click-product .slick-slide{width: 84px !important;}
+				//*.what1 .main-img .slick-slide{width: 96% !important;padding: 5px;}*//
+				.what1 .js-click-product{margin-top: 10px;height: 100px;}
+
+}

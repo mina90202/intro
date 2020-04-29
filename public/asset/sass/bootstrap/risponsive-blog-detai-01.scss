@@ -1,0 +1,102 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+@media (max-width: 1680px){
+	.post .there-is .imfor{padding: 50px 30px;}
+	.post .there-is1 .imfor{padding: 50px 30px;}
+
+}
+@media (max-width: 1440px){
+		.post .there-is .imfor{padding: 20px 15px;}
+	.post .there-is1 .imfor{padding: 20px 15px;}
+	.post .there-is1 .imfor p{line-height: 170%;padding-bottom: 0;}
+	.post .there-is1 .imfor h1{padding-bottom: 5px;line-height: 125%;}
+	.post .there-is .imfor p{line-height: 170%;padding-bottom: 0;}
+	.post .there-is .imfor h1{padding-bottom: 5px;line-height: 125%;}
+}
+@media (max-width: 1200px){
+	.post .there-is1 .imfor p{font-size: 14px;line-height: 150%;}
+	.post .there-is1 .imfor h1{font-size: 24px;}
+	.post .there-is .imfor p{font-size: 14px;line-height: 150%;}
+	.post .there-is .imfor h1{font-size: 24px;}
+
+}
+@media (max-width: 1024px){
+			.post .there-is .imfor{padding: 5px 10px ;} 
+	.post .there-is1 .imfor{padding:5px 10px;}
+	.post .post6 .alex{padding-top: 50px;}
+	.post .post1{padding: 50px 15px;}
+
+}
+@media (max-width: 991px){
+		.post .there-is .imfor{    padding: 50px 30px;}
+	.post .there-is1 .imfor{    padding: 50px 30px;}
+	.post .there-is1 .imfor p{line-height: 185%;padding-bottom: 20px; font-size: 16px;}
+	.post .there-is1 .imfor h1{padding-bottom: 40px;line-height: 150%;font-size: 35px;}
+	.post .there-is .imfor p{line-height: 185%;padding-bottom: 20px; font-size: 16px;}
+	.post .there-is .imfor h1{padding-bottom: 40px;line-height: 150%;font-size: 35px;}
+	.post .post6 .alex .boder .text p{font-size: 14px;line-height: 160%;padding: 0 5px 0 15px;}
+	.post .post6 .alex .boder .text h4{padding-left: 15px;}
+	.post .what-you{padding: 50px 15px;}
+	.post .what-you2{padding: 50px 15px;}
+	.post .post5{padding: 50px 15px;}
+	.post .post6{padding: 50px 15px;}
+	.comments .padd{padding: 50px 15px;}
+	.write-comments .row{padding: 50px 15px;}
+	.comments .alex{float: left;}
+	.comments .alex .boder .text p{font-size: 14px;line-height: 160%;}
+	
+}
+@media (max-width: 767px){
+	.post .post6 h4{padding-left: 0;}
+	.post .post5 p{padding: 0 0 20px 0;}
+	.post .post6 p {padding: 0 0 20px 0;}
+	.post .post6 .button{padding-left: 0;}
+	.post .post6 .alex{float: left;padding-left: 0;}
+	.blog .col-md-4{ text-align: left; }
+	.post .what-you p{padding-right: 0;}
+	.post .what-you2 p{padding-right: 0;}
+	.post .what-you2 h4{padding: 10px 0 0 20px;}
+
+}
+@media (max-width: 680px){
+	.comments .alex .boder .text{padding-left: 15px;}
+}
+@media (max-width: 568px){
+	.post .post4{padding: 0 15px;}
+	 p{font-size: 14px !important;}
+	 .contacts .contact p{font-size: 20px!important;}
+	* h1{font-size: 24px!important;}
+	 .comments .alex .boder .img img{width: 100%;}
+	 .post .post6 .alex .boder .img img{width: 100%;padding-left: 5px;}
+	 .post .post6 .alex{padding-top: 50px;}
+}
+@media (max-width: 480px){
+	.container_header .breadcrumb .active{
+		    white-space: nowrap;
+    		overflow: hidden;
+    		text-overflow: ellipsis;
+    		width: 150px;
+	}
+.container_header .breadcrumb li{white-space: nowrap;
+    		overflow: hidden;
+    		text-overflow: ellipsis;}
+
+}
+@media (max-width: 480px){
+	.container_header .breadcrumb .active{
+		width: 118px;
+	}
+	.write-comments .input-contact{width: 100%;}
+}
+@media (max-width: 360px){
+	.write-comments .input-contact{width: 100%;}
+}

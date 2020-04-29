@@ -1,0 +1,71 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+@media screen and (max-width: 1680px) {
+	.cases .read-mode .read-mode-produc{padding-left: 15px;top:170px;}
+}
+@media screen and (max-width: 1440px) {
+	.approach-mission-designers .our-mision{padding: 100px 40px;}
+	.approach-mission-designers .our-approach{padding: 100px 30px;}
+}
+@media screen and (max-width: 1360px) {
+			.cases .read-mode .read-mode-produc p{font-size: 24px;}
+		.cases .read-mode .read-mode-produc{top:100px;}
+}
+@media screen and (max-width: 1170px) {
+	.cases .read-mode .read-mode-produc p{font-size: 22px;}
+		.approach-mission-designers .our-mision{padding: 50px 15px;h1{font-size: 40px;}}
+	.approach-mission-designers .our-approach{padding: 50px 15px;padding-bottom: 21px;h1{font-size: 40px}}
+	.approach-mission-designers .we-are-designers{padding: 50px 15px;padding-bottom:61px;h1{font-size: 40px;}}
+	.affixx{padding-top: 15px !important;}
+}
+@media screen and (max-width: 1024px) {
+	.approach-mission-designers .we-are-designers{padding-bottom: 90px;}
+	.pull-right{padding: 5px;}
+	.affixx .logo{padding-left: 15px;}
+	.affixx .sidenav{padding-right: 15px;}
+	.we-are-delivering .container{padding: 50px 15px;}
+}
+@media screen and (max-width: 991px) {
+	.approach-mission-designers .we-are-designers{padding-bottom: 76px;}
+		.approach-mission-designers .our-approach{padding: 50px 15px;}
+
+	h1{font-size: 36px !important;}
+}
+@media screen and (max-width: 768px) {
+	.affixx .logo{padding-left: 15px;}
+	.affixx .sidenav{padding-right: 15px;}
+
+}
+@media screen and (max-width: 680px) {
+	.approach-mission-designers .we-are-designers{padding: 30px 15px;}
+	.approach-mission-designers .we-are-designers h1{padding-right: 20%;}
+}
+@media screen and (max-width: 568px) {
+	h1{font-size: 24px !important;}
+	.cases .read-mode .read-mode-produc p{font-size: 20px;}
+	.approach-mission-designers .col-md-3{width: 100%;}
+	.affixx{position: fixed !important;padding-bottom: 10px !important;}
+	.approach-mission-designers{padding-bottom: 0;}
+	.cooperate{padding-top: 50px;}
+	.we-are-delivering .container{padding: 50px 15px;}
+			.container_header{top:70%;}
+}
+@media screen and (max-width: 480px) {
+					.what1 .main-img .slick-current.slick-active{display: inline-block;width: 97%!important;}
+				.what1 .main-img .slick-slide{display: none;}
+	.cases .read-mode{width: 100%;}
+	.approach-mission-designers .our-approach p{font-size: 14px;line-height: 150%;}
+	.approach-mission-designers .our-mision p{font-size: 14px;line-height: 150%;}
+	.unlimited .welcome p{font-size: 14px;line-height: 150%;padding-bottom: 30px;}
+	.unlimited .col-md-3{padding: 30px 15px; p{font-size: 14px;line-height: 150%;}} 
+}
+@media screen and (max-width: 360px) {}

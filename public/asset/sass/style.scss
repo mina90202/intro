@@ -1,0 +1,84 @@
+ /*------------------------------------
+  [Table of contents]
+  1. Body
+  2. Header / #header
+  3. Navigation / #navbar
+  4. Content / #content
+  5. Sidebar / #sidebar
+  6. Search / #search
+  7. Footer / #footer
+  
+--------------------------------------*/
+
+
+
+.home-1{
+ @import "components/style-home1";
+}
+.home-2{
+ @import "components/style-home2";
+}
+.home-3{
+ @import "components/style-home3";
+}
+ .home-4{
+ @import "components/style-home4";
+}
+
+ .home-5{
+ @import "components/style-home5";
+}
+ .page-404{
+ @import "components/style-404";
+}
+ .about-1{
+ @import "components/style-about-01";
+}
+ .about-2{
+ @import "components/style-about-02";
+}
+ .about-3{
+ @import "components/style-about-03";
+}
+ .about-4{
+ @import "components/style-about-04";
+}
+ .blog-1{
+ @import "components/style-blog-01";
+}
+ .blog-2{
+ @import "components/style-blog-02";
+}
+ .blog-3{
+ @import "components/style-blog-03";
+}
+ .blog-4{
+ @import "components/style-blog-04";
+}
+ .blogdetai-1{
+ @import "components/style-blog-detai-01";
+}
+ .blogdetai-2{
+ @import "components/style-blog-detai-02";
+}
+ .contact-1{
+ @import "components/style-contact-01";
+}
+ .contact-2{
+ @import "components/style-contact-02";
+}
+ .porfolio-1{
+ @import "components/style-porfolio-01";
+}
+  .porfolio-2{
+ @import "components/style-porfolio-02";
+}
+ .services-1{
+ @import "components/style-services-01";
+}
+ .services-2{
+ @import "components/style-services-02";
+}
+ .page-team{
+ @import "components/style-team";
+}

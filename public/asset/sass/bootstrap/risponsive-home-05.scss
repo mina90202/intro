@@ -1,0 +1,105 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+@media screen and (max-width: 1680px){
+	.phone_top{padding-right: 80px;}
+}
+@media screen and (max-width: 1240px){
+ .unlimited .col-md-3{padding: 15px;}
+ .testimonials-design .p{padding-left: 17%;   padding-right: 17%;}
+ .testimonials-design .pp{padding-left: 17%;   padding-right: 17%;}
+ .group .easy-way ul li{padding: 10px 0;font-size:14px;}
+ .easy-way{padding-left: 0;padding-right: 0;}
+ .easy-way ul{    -webkit-padding-start: 10px;}
+ .group .easy-way p{font-size: 14px;    padding-bottom: 10px;}
+ .group .easy-way h1{font-size: 40px;}
+
+}
+@media screen and (max-width: 1024px){
+	.side .phone_top{display: block;}
+	 	.layer {
+	 padding-top: 0px; 
+	}
+	.group{padding-top: 50px;}
+	.testimonials-design{padding-bottom: 50px;padding-top: 50px;}
+	.unlimited {padding-top: 30px;}
+	.row_header5 .logo span {
+ background-image: url(../img/logo-mobi.png);
+    height: 32px;
+    width: 104px;
+    display: inline-block;
+}
+.row_header5{padding-bottom: 10px;padding-top: 15px;}
+.row_header5 .navba{padding-left: 15px;}
+.phone_top{padding-right: 15px;}
+}
+@media screen and (max-width: 991px){
+
+.unlimited .col-md-3{padding-bottom: 50px;}
+	.unlimited .customer{padding-bottom: 55px;}
+	.group{padding-bottom: 100px;}
+	.our-recent{padding-bottom: 50px;}
+	.sile1 .we_are{padding-left: 15px;}
+	.porfo .porfolio{padding: 80px 15px;}
+	 .testimonials-design .p{padding-left: 5%;   padding-right: 5%;}
+ .testimonials-design .pp{padding-left: 5%;   padding-right: 5%;}
+ .easy-way{padding-left: 15px;padding-right: 15px;}
+ br{display: none;}
+	}
+
+
+	@media screen and (max-width: 768px){
+		
+		.blog .col-md-4{width: 50%;text-align: left;}
+		
+		.porfo .nav_main .nav-tabs{padding-left: 10px;}
+		.unlimited{padding-top: 50px;padding-bottom: 50px;}
+
+	}
+
+
+	@media screen and (max-width: 680px){
+	.blog .col-md-4 .blog_name a{font-size: 17px;}
+	.sile1{width: 100%;left: 0;}
+	.unlimited .development{clear: left;}
+	
+	}
+	@media screen and (max-width: 568px){
+		.sile1{top: 50%;}
+		.layer{padding-top: 0;}
+		.unlimited .col-md-3{width: 100%;}
+		
+		.testimonials-design .p{font-size: 24px;}
+		.testimonials-design .pp{font-size: 14px;}
+		.blog .col-md-4{width: 100%;}
+		.blog .blog_name{padding-bottom: 0;}
+		#googlemap1{height: 300px;}
+		.porfo .porfolio .col-md-4 .some{font-size: 14px;}
+		.testimonials-design .chuky{margin-top: 20px;}
+		.group .easy-way ul li span{font-size: 18px;}
+	}
+		@media screen and (max-width: 480px){
+			.fixed-fluid{padding-top: 60px;}
+			.sile1{left: 0;width: 100%;}
+			.row_header5{padding-top: 20px;}
+			.affix{padding-top: 15px;padding-bottom: 10px;}
+			.testimonials-design .p .file{margin-left: 0;}
+			.testimonials-design .p{margin-left: 0;margin-right: 0;}
+			.group .group-img{padding-right: 125px;}
+			.img_porfolio .col-xs-6{width: 100%;}
+			.porfolio .nav_main{margin-left: 0;}
+			.porfolio .col-md-8{padding-right: 0;}
+			.porfolio .nav_main .nav-tabs .active{padding-bottom: 0;}
+			.porfolio .nav_main .nav-tabs li{padding-bottom: 1px;}
+		}
+				@media screen and (max-width: 480px){
+
+				}

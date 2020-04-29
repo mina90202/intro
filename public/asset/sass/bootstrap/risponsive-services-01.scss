@@ -1,0 +1,53 @@
+/*------------------------------------
+	[Table of contents]
+	1. Body
+	2. Header / #header
+	3. Navigation / #navbar
+	4. Content / #content
+	5. Sidebar / #sidebar
+	6. Search / #search
+	7. Footer / #footer
+	
+--------------------------------------*/
+
+
+@media  screen and (max-width: 1680px){}
+@media  screen and (max-width: 1360px){}
+@media  screen and (max-width: 1200px){}
+@media  screen and (max-width: 1170px){}
+@media  screen and (max-width: 1024px){
+
+
+.pricing-table .center-mode{padding-bottom: 50px;}
+.pricing-table{padding-top: 50px;}
+.servic .col-md-12 p{padding-bottom: 30px;}
+}
+@media  screen and (max-width: 768px){
+	.affixx .logo{padding-left: 15px;}
+	.affixx .sidenav{padding-right: 15px;}
+}
+@media  (min-width: 767px) and (max-width: 900px)  {
+.brand .brand_logo .brand-logo img{
+		width: 100%
+	}
+}
+@media  screen and (max-width: 767px){
+	.brand .brand_logo .clear-left{clear: left;}
+	.brand .brand_logo .brand-logo{width: 33.3333%;text-align: center; padding-bottom: 20px;}
+
+}
+@media  screen and (max-width: 680px){
+.brand .brand_logo{padding: 50px 15px;}
+
+}
+@media  screen and (max-width: 568px){
+.brand .brand_logo .brand-logo{width: 100%;text-align: center;padding-bottom: 30px;}
+
+}
+@media  screen and (max-width: 480px){
+.video-skills .video .helo .button_play{padding: 30px;}
+}
+@media  screen and (max-width: 360px){}
+@media  screen and (max-width: 992px){}
+@media  screen and (max-width: 992px){}
+@media  screen and (max-width: 992px){}
